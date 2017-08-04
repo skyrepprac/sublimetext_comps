@@ -5,6 +5,6 @@
 	"completions":
 	[
 		{ "trigger": "frmfileupload", "contents": "<form id=\"${1:formId}\" action=\"${2:formAction}\" method=\"${3:get\/post}\" accept-charset=\"utf-8\" enctype=\"multipart/form-data\" onclick=\"${4:javascript_method}\">\n\t<button name=\"submit\" type=\"submit\">${5:buttonText}<\/button>\n<\/form>" },
-		{ "trigger": "frmurlencode", "contents": "<form id=\"${1:formId}\" action=\"${2:formAction}\" method=\"${3:get\/post}\" accept-charset=\"utf-8\" enctype=\"application/x-www-form-urlencoded\" onclick=\"${4:javascript_method}\">" }
+		{ "trigger": "frmurlencode", "contents": "<form id=\"${1:formId}\" action=\"${2:formAction}\" method=\"${3:get\/post}\" accept-charset=\"utf-8\" enctype=\"application/x-www-form-urlencoded\" onclick=\"${4:javascript_method}\">\n\t<button name=\"submit\" type=\"submit\">${5:buttonText}<\/button>\n<\/form>" }
 	]
 }
